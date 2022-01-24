@@ -29,7 +29,7 @@ When I wait until the page has the title 'Trello Workspace | Trello'
 When I wait until element located `By.xpath(//span[text()="Trello Workspace"])` appears
 Then the text 'Create your first board' exists
 
-Scenario: Board creation
+Scenario: Board creation using API
 Given I am on a page with the URL 'https://trello.com/app-key'
 When I click on element located `By.xpath(//*[@id="accept-developer-agreement"])`
 When I click on element located `By.xpath(//button[text()="Show API Key"])`
