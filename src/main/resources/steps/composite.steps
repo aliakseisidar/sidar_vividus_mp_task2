@@ -1,0 +1,3 @@
+Composite: When I wait and click on element located $xpath
+When I wait until element located `<xpath>` appears
+When I click on element located `<xpath>`
